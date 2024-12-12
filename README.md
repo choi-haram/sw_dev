@@ -1,17 +1,24 @@
-# sw_dev
+## Commit Rule
 
-Commit Rule
-Commit Message Structure
-type: Subject
+### Commit Message Structure
 
-body
+> type: Subject
+> 
+> 
+> body
+> 
+> footer
+> 
 
-footer
+### Commit Subject  Rule
 
-Commit Subject Rule
-커밋 제목은 최대 50자 제목 끝에 마침표(.) 금지 Commit 메세지
+> 커밋 제목은 최대 50자 
+제목 끝에 마침표(.) 금지
+Commit 메세지
+> 
 
-Commit Type Rule
+### Commit Type Rule
+
 ✂️[chore]: 코드 수정, 내부 파일 수정
 
 ✨[feat]: 새로운 기능 구현
@@ -42,16 +49,20 @@ Commit Type Rule
 
 🔀[merge]: 다른브렌치를 merge 할 때 사용
 
-✅ [test]: 테스트 코드를 작성할 때 사용
+✅ [test]: 테스트 코드를 작성할 때 사용
 
-Commit Body Rule
-제목과 본문을 빈 행으로 분리
-입력본문은 한 줄 최대 72자 입력
-본문을 사용하여 변경 한 내용과 이유 설명(어떻게 보다는 무엇과 왜를 설명)
-한글로 작성
 
-필요한 패키지 설치
+### **Commit Body Rule**
+
+> 제목과 본문을 빈 행으로 분리<br>
+입력본문은 한 줄 최대 72자 입력<br>
+본문을 사용하여 변경 한 내용과 이유 설명(어떻게 보다는 무엇과 왜를 설명)<br>
+한글로 작성<br>
+
+
+### 필요한 패키지 설치
 pip install -r requirements.txt #패키지 설치
 
-FastAPI 실행
+### FastAPI 실행
 uvicorn app.main:app --reload
+
